@@ -135,13 +135,11 @@ function App() {
     setBtnClass2("playBtn2");
   };
 
-  const astralThrob = () => {
-    setVideo("//www.youtube.com/embed/RJcIzUNKSQk?autoplay=1&mute=1&start=1");
-    setStationName("Astral Throb");
-    setYoutubeChannal("https://www.youtube.com/c/AstralThrob");
-    setLivestream(
-      "https://www.youtube.com/watch?v=UedTcufyrHc&ab_channel=NightrideFM"
-    );
+  const RNB & Chill Radio = () => {
+    setVideo("https://www.youtube.com/watch?v=86XzuPmMriw");
+    setStationName("RnB & Chill");
+    setYoutubeChannal("https://www.youtube.com/@mxtthew");
+    setLivestream("https://www.youtube.com/watch?v=86XzuPmMriw");
     playLiveStream(true);
     setPauseScreen("unpauseScreen");
     setPlayPause(pauseImg);
