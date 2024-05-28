@@ -60,7 +60,7 @@ function App() {
   const [video, setVideo] = useState("https://www.youtube.com/watch?v=IkmLXvBfVv0");
 
   // <------------- Music Safe -------------->
-  const DeepHouseSafe = () => {
+  const Deep House Radio = () => {
     setVideo("https://www.youtube.com/watch?v=IkmLXvBfVv0");
     setStationName("DeepHouse");
     setYoutubeChannal("https://www.youtube.com/@TheGoodLiferadio");
@@ -111,7 +111,7 @@ function App() {
     setBtnClass2("playBtn2");
   };
 
-  const ChillHop Radio = () => {
+  const Chill Hop Radio = () => {
     setVideo("https://www.youtube.com/watch?v=5yx6BWlEVcY");
     setStationName("Chill Hop");
     setYoutubeChannal("https://www.youtube.com/@ChillhopMusic");
@@ -183,11 +183,11 @@ function App() {
     setBtnClass2("playBtn2");
   };
 
-  const animeVibe = (e) => {
-    setVideo("//www.youtube.com/embed/5B7Rsw0L2r8?autoplay=1&mute=1&start=0");
-    setStationName("AnimeVibe");
-    setYoutubeChannal("https://www.youtube.com/c/AnimeVibe");
-    setLivestream("https://www.youtube.com/watch?v=JWlKA9wmO64");
+  const Chill Lofi hip hop = () => {
+    setVideo("https://www.youtube.com/watch?v=rUxyKA_-grg&list=PL6NdkXsPL07Il2hEQGcLI4dg_LTg7xA2L&index=5");
+    setStationName("Chill Lofi Hip Hop");
+    setYoutubeChannal("https://www.youtube.com/@LofiGirl");
+    setLivestream("https://www.youtube.com/watch?v=rUxyKA_-grg&list=PL6NdkXsPL07Il2hEQGcLI4dg_LTg7xA2L&index=5");
     playLiveStream(true);
     setPauseScreen("unpauseScreen");
     setPlayPause(pauseImg);
@@ -195,11 +195,11 @@ function App() {
     setBtnClass2("playBtn2");
   };
 
-  const collegeMusic = (e) => {
-    setVideo("//www.youtube.com/embed/epaP2LCCuVE?autoplay=1&mute=1&start=0");
-    setStationName("College Music");
-    setYoutubeChannal("https://www.youtube.com/@CollegeMusic");
-    setLivestream("https://www.youtube.com/watch?v=epaP2LCCuVE");
+  const Peaceful Piano Radio = () => {
+    setVideo("https://www.youtube.com/watch?v=4oStw0r33so&list=PL6NdkXsPL07Il2hEQGcLI4dg_LTg7xA2L&index=3");
+    setStationName("Peaceful Piano");
+    setYoutubeChannal("https://www.youtube.com/@LofiGirl");
+    setLivestream("https://www.youtube.com/watch?v=4oStw0r33so&list=PL6NdkXsPL07Il2hEQGcLI4dg_LTg7xA2L&index=3");
     playLiveStream(true);
     setPauseScreen("unpauseScreen");
     setPlayPause(pauseImg);
@@ -208,12 +208,10 @@ function App() {
   };
 
   const tokyoTones = () => {
-    setVideo("//www.youtube.com/embed/5wRWniH7rt8?autoplay=1&mute=1&start=50");
+    setVideo("https://www.youtube.com/embed/5wRWniH7rt8?autoplay=1&mute=1&start=50");
     setStationName("TOKYO TONES");
     setYoutubeChannal("https://www.youtube.com/@TokyoTones");
-    setLivestream(
-      "https://www.youtube.com/watch?v=Lcdi9O2XB4E&ab_channel=TOKYOTONES"
-    );
+    setLivestream("https://www.youtube.com/watch?v=Lcdi9O2XB4E&ab_channel=TOKYOTONES");
     playLiveStream(true);
     setPauseScreen("unpauseScreen");
     setPlayPause(pauseImg);
@@ -223,21 +221,21 @@ function App() {
   return (
     <div className="interfaceContainer">
       <div className="radioContainer">
-        <div className="logo">StudyBeats</div>
+        <div className="logo">MusicLordOnline</div>
         <div className="radioStationsContainer">
           <RadioStations
-            Ambient={AmbientRenders}
-            Anime={animeVibe}
-            Astral={astralThrob}
-            College={collegeMusic}
-            ChillHop={ChillHiphop}
-            Cow={chilledCow}
-            Ivy={IvyRecords}
-            Boy={LofiBoy}
-            Lofi={LofiGirlVideo}
-            Chill={ChillAF}
-            Jazz={theJazzHopCafe}
-            Nice={NiceGuys}
+            DeepHouseRadio={DeepHouse}
+            TomorrowlandOneWorldRadio={TomorrowLand:OneWorld}
+            SoothingPianoRadio={SoothingPiano}
+            LoFiHipHopRadio={LofiHipHop}
+            ChillHopRadio={ChillHop}
+            OldSchoolMix={OldSchool}
+            RNB&ChillRadio={RnB&Chill}
+            HipHopMixRadio={HipHopMix}
+            SynthwaveRadio={Synthwave}
+            PeacefulPianoRadio={PeacefulPiano}
+            DarkAmbientRadio={DarkAmbient}
+            ChillLofiHopHop={ChillLofiHipHop}
             Tokyo={tokyoTones}
             StationName={stationName}
           />
