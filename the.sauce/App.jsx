@@ -78,14 +78,14 @@ function App() {
     setActiveStationState(true);
   };
 
-  const AmbientRenders = (e) => {
-    setVideo("//www.youtube.com/embed/hBGbt2CRDpA?autoplay=1&mute=1&start=1");
-    setStationName("Ambient Renders");
+  const TomorrowLand One World Radio = () => {
+    setVideo("https://www.youtube.com/watch?v=wBgSH-CGPzg");
+    setStationName("TomorrowLand: One World");
     setYoutubeChannal(
-      "https://www.youtube.com/channel/UCXbXfisDHV_gDjawCKTyTIw"
+      "https://www.youtube.com/@tomorrowland"
     );
     setLivestream(
-      "https://www.youtube.com/watch?v=CoP5wLD9clU&ab_channel=AmbientRenders"
+      "https://www.youtube.com/watch?v=wBgSH-CGPzg"
     );
     playLiveStream(true);
     setPauseScreen("unpauseScreen");
