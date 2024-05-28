@@ -57,19 +57,14 @@ function App() {
     setPauseScreen("pauseScreen");
     playLiveStream(false);
   };
-  const [video, setVideo] = useState(
-    "https://www.youtube.com/watch?v=IkmLXvBfVv0");
+  const [video, setVideo] = useState("https://www.youtube.com/watch?v=IkmLXvBfVv0");
 
   // <------------- Music Safe -------------->
   const DeepHouseSafe = () => {
     setVideo("https://www.youtube.com/watch?v=IkmLXvBfVv0");
     setStationName("DeepHouse");
-    setYoutubeChannal(
-      "https://www.youtube.com/@TheGoodLiferadio"
-    );
-    setLivestream(
-      "https://www.youtube.com/watch?v=IkmLXvBfVv0"
-    );
+    setYoutubeChannal("https://www.youtube.com/@TheGoodLiferadio");
+    setLivestream("https://www.youtube.com/watch?v=IkmLXvBfVv0");
     playLiveStream(true);
     setPauseScreen("unpauseScreen");
     setPlayPause(pauseImg);
@@ -81,12 +76,8 @@ function App() {
   const TomorrowLand One World Radio = () => {
     setVideo("https://www.youtube.com/watch?v=wBgSH-CGPzg");
     setStationName("TomorrowLand: One World");
-    setYoutubeChannal(
-      "https://www.youtube.com/@tomorrowland"
-    );
-    setLivestream(
-      "https://www.youtube.com/watch?v=wBgSH-CGPzg"
-    );
+    setYoutubeChannal("https://www.youtube.com/@tomorrowland");
+    setLivestream("https://www.youtube.com/watch?v=wBgSH-CGPzg");
     playLiveStream(true);
     setPauseScreen("unpauseScreen");
     setPlayPause(pauseImg);
@@ -96,13 +87,11 @@ function App() {
     setActiveStationState(false);
   };
 
-  const IvyRecords = () => {
-    setVideo("//www.youtube.com/embed/F1B9Fk_SgI0?autoplay=1&mute=1&start=10");
-    setStationName("Ivy Records");
-    setYoutubeChannal(
-      "https://www.youtube.com/channel/UCv7qaGzuEfLhKxAZf4eZONg"
-    );
-    setLivestream("https://www.youtube.com/watch?v=05689ErDUdM");
+  const Soothing Piano Radio = () => {
+    setVideo("https://www.youtube.com/watch?v=2OM7adQl-YQ");
+    setStationName("Soothing Piano");
+    setYoutubeChannal("https://www.youtube.com/@SoothingRelaxation");
+    setLivestream("https://www.youtube.com/watch?v=2OM7adQl-YQ");
     playLiveStream(true);
     setPauseScreen("unpauseScreen");
     setPlayPause(pauseImg);
@@ -110,13 +99,11 @@ function App() {
     setBtnClass2("playBtn2");
   };
 
-  const ChillHiphop = () => {
-    setVideo("//www.youtube.com/embed/iEGFFyv0MH4?autoplay=1&mute=1&start=1");
-    setStationName("ChillHop Music");
-    setYoutubeChannal("https://www.youtube.com/c/Chillhopdotcom/videos");
-    setLivestream(
-      "https://www.youtube.com/watch?v=7NOSDKb0HlU&ab_channel=ChillhopMusic"
-    );
+  const LoFi Hip Hop Radio = () => {
+    setVideo("https://www.youtube.com/watch?v=jfKfPfyJRdk");
+    setStationName("LoFi Hip Hop");
+    setYoutubeChannal("https://www.youtube.com/@LofiGirl");
+    setLivestream("https://www.youtube.com/watch?v=jfKfPfyJRdk");
     playLiveStream(true);
     setPauseScreen("unpauseScreen");
     setPlayPause(pauseImg);
