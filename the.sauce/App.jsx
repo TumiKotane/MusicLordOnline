@@ -123,13 +123,11 @@ function App() {
     setBtnClass2("playBtn2");
   };
 
-  const ChillAF = () => {
-    setVideo("//www.youtube.com/embed/X9fH2VEFgwk?autoplay=1&mute=1&start=1");
-    setStationName("ChillAF");
-    setYoutubeChannal("https://www.youtube.com/c/CHILLAF");
-    setLivestream(
-      "https://www.youtube.com/watch?v=7bSlyM1allk&ab_channel=CHILLAF"
-    );
+  const Old School Mix = () => {
+    setVideo("https://www.youtube.com/watch?v=gpsqz2kseiY");
+    setStationName("Old School");
+    setYoutubeChannal("https://www.youtube.com/@bestofmixlive");
+    setLivestream("https://www.youtube.com/watch?v=gpsqz2kseiY");
     playLiveStream(true);
     setPauseScreen("unpauseScreen");
     setPlayPause(pauseImg);
