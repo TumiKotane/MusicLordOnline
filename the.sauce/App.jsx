@@ -58,18 +58,17 @@ function App() {
     playLiveStream(false);
   };
   const [video, setVideo] = useState(
-    `//www.youtube.com/embed/TURbeWK2wwg?autoplay=1&mute=1&start=1`
-  );
+    "https://www.youtube.com/watch?v=IkmLXvBfVv0");
 
-  // <------------- Radio Change section -------------->
-  const LofiGirlVideo = () => {
-    setVideo("//www.youtube.com/embed/TURbeWK2wwg?autoplay=1&mute=1&start=1");
-    setStationName("LofiGirl");
+  // <------------- Music Safe -------------->
+  const DeepHouseSafe = () => {
+    setVideo("https://www.youtube.com/watch?v=IkmLXvBfVv0");
+    setStationName("DeepHouse");
     setYoutubeChannal(
-      "https://www.youtube.com/channel/UCSJ4gkVC6NrvII8umztf0Ow"
+      "https://www.youtube.com/@TheGoodLiferadio"
     );
     setLivestream(
-      "https://www.youtube.com/watch?v=jfKfPfyJRdk&ab_channel=LofiGirl"
+      "https://www.youtube.com/watch?v=IkmLXvBfVv0"
     );
     playLiveStream(true);
     setPauseScreen("unpauseScreen");
