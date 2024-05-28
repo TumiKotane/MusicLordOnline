@@ -171,13 +171,11 @@ function App() {
     setBtnClass2("playBtn2");
   };
 
-  const NiceGuys = () => {
-    setVideo("//www.youtube.com/embed/3n1aC2TYXIA?autoplay=1&mute=1&start=1");
-    setStationName("Nice Guys");
-    setYoutubeChannal(
-      "https://www.youtube.com/channel/UCMmt12UKW571UWtJAgWkWqg"
-    );
-    setLivestream("https://www.youtube.com/watch?v=AS_x4uR87Kw");
+  const Dark Ambient Radio = () => {
+    setVideo("https://www.youtube.com/watch?v=S_MOd40zlYU&list=PL6NdkXsPL07Il2hEQGcLI4dg_LTg7xA2L&index=4");
+    setStationName("Dark Ambient");
+    setYoutubeChannal("https://www.youtube.com/@LofiGirl");
+    setLivestream("https://www.youtube.com/watch?v=S_MOd40zlYU&list=PL6NdkXsPL07Il2hEQGcLI4dg_LTg7xA2L&index=4");
     playLiveStream(true);
     setPauseScreen("unpauseScreen");
     setPlayPause(pauseImg);
