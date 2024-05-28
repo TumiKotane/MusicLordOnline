@@ -111,13 +111,11 @@ function App() {
     setBtnClass2("playBtn2");
   };
 
-  const LofiBoy = () => {
-    setVideo("//www.youtube.com/embed/TlWYgGyNnJo?autoplay=1&mute=1&start=19");
-    setStationName("LofiBoy");
-    setYoutubeChannal("https://www.youtube.com/@LofiGirl");
-    setLivestream(
-      "https://www.youtube.com/watch?v=4xDzrJKXOOY&ab_channel=LofiGirl"
-    );
+  const ChillHop Radio = () => {
+    setVideo("https://www.youtube.com/watch?v=5yx6BWlEVcY");
+    setStationName("Chill Hop");
+    setYoutubeChannal("https://www.youtube.com/@ChillhopMusic");
+    setLivestream("https://www.youtube.com/watch?v=5yx6BWlEVcY");
     playLiveStream(true);
     setPauseScreen("unpauseScreen");
     setPlayPause(pauseImg);
