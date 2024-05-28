@@ -159,11 +159,11 @@ function App() {
     setBtnClass2("playBtn2");
   };
 
-  const theJazzHopCafe = () => {
-    setVideo("//www.youtube.com/embed/U8HBZOTZrf0?autoplay=1&mute=1&start=1");
-    setStationName("theJazz Cafe");
-    setYoutubeChannal("https://www.youtube.com/c/TheJazzHopCaf%C3%A9");
-    setLivestream("https://www.youtube.com/watch?v=e3L1PIY1pN8");
+  const Synthwave radio = () => {
+    setVideo("https://www.youtube.com/watch?v=4xDzrJKXOOY&list=PL6NdkXsPL07Il2hEQGcLI4dg_LTg7xA2L&index=2");
+    setStationName("Synthwave");
+    setYoutubeChannal("https://www.youtube.com/@LofiGirl");
+    setLivestream("https://www.youtube.com/watch?v=4xDzrJKXOOY&list=PL6NdkXsPL07Il2hEQGcLI4dg_LTg7xA2L&index=2");
     playLiveStream(true);
     setPauseScreen("unpauseScreen");
     setPlayPause(pauseImg);
