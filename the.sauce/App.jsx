@@ -147,13 +147,11 @@ function App() {
     setBtnClass2("playBtn2");
   };
 
-  const chilledCow = () => {
-    setVideo("//www.youtube.com/embed/lTRiuFIWV54?autoplay=1&mute=1&start=1");
-    setStationName("Chilled Cow");
-    setYoutubeChannal("https://www.youtube.com/c/LofiGirl");
-    setLivestream(
-      "https://www.youtube.com/watch?v=rUxyKA_-grg&ab_channel=LofiGirl"
-    );
+  const Hip Hop Mix Radio = () => {
+    setVideo("https://www.youtube.com/watch?v=urikT3Act8w");
+    setStationName("Hip Hop Mix");
+    setYoutubeChannal("https://www.youtube.com/@bestofmixlive");
+    setLivestream("https://www.youtube.com/watch?v=urikT3Act8w");
     playLiveStream(true);
     setPauseScreen("unpauseScreen");
     setPlayPause(pauseImg);
